@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#geral{
+    width: 1024px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+#cabecalho{
+    background: rgb(9, 2, 71);
+    padding: 10px;
+    text-align: center;
+    color:floralwhite;
+}
+
+#acima{
+    background: rgb(239, 241, 243);
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    float:top;
+}
+
+#abaixo{
+    background: rgb(239, 241, 243);
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    float:top;
+}
+
+#divMensagem{
+    width: 100%;
+    height: 100%;
+}
+
+#btnValidar{
+    width: 200px;
+    float:right;
+}
+
+#txtConteudo{
+    width: 100%;
+    height: 100%;
+}
+
+ #rodape{
+    background: blueviolet;
+    padding: 20px;
+    text-align: center;
+}

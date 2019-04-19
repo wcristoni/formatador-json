@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang=”pt-br”>
+    <head>
+        <meta charset=”utf-8″>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1, shrink-to-fit=no”>
+        <title>Formatador JSON</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      
+        <script type="text/javascript" src="js/formatador.js"></script>
+        
+        <link href="css/formatador.css" rel="stylesheet" type="text/css">
+            
+        </style>
+    </head>
+    <body>
+        <div id="geral">
+
+            <div id="cabecalho">
+                <h3>JSON Formatador Caseiro :)</h3>
+            </div> 
+        
+            <div id="acima">
+                <pre><code>Informe o seu JSON aqui... <button onclick="javascript:ValidarJson(this)" id="btnValidar" class="btn btn-primary">Validar</button>
+                    <textarea rows = "20" cols = "55" name="txtConteudo" id="txtConteudo"></textarea><br>
+                </code></pre>
+            </div>
+            
+            <div id="abaixo">
+                <pre><code></code>A saída do processamento sairá aqui:
+                    <div id="divMensagem">
+                    </div>
+                </code></pre>     
+            </div>
+        </div>
+        
+    </body>
+</html>
